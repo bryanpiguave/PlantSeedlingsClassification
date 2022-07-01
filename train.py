@@ -58,10 +58,14 @@ def main(cfg:SeedlingConfig):
 
   model = tf.keras.Model(inputs, outputs)
 
+  lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
+    initial_learning_rate= cfg.params.base_learning_rate,
+    decay_steps=1000,
+    decay_rate=0.9)
 
 
   model.compile(
-    optimizer=tf.keras.optimizers.Adam(learning_rate=cfg.params.base_learning_rate),
+    optimizer=tf.keras.optimizers.Adam(learning_rate=lr_schedule),
     loss=tf.losses.SparseCategoricalCrossentropy(from_logits=True),
     metrics=['accuracy'])
 
