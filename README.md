@@ -27,6 +27,12 @@ pip install -r requirements.txt
 ```
 python3 train.py 
 ```
+
+## Inference 
+```
+python3 inference.py 
+```
+
 # Author 
 
 [Bryan Piguave](https://github.com/bryanpiguave)
