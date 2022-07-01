@@ -2,8 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Paths:
-    log: str
-    data: str
+    data_dir: str
 
 @dataclass
 class Params:
@@ -12,6 +11,8 @@ class Params:
     initial_epochs: int
     fine_tuning_epochs: int
     batch_size: int
+    img_width: int
+    img_height: int
 
 @dataclass
 class SeedlingConfig:
