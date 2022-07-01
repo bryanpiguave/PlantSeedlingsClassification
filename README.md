@@ -9,6 +9,9 @@ The images used to train the model were downloaded from [here](https://www.kaggl
 
 More details about the dataset can be found [here](https://arxiv.org/pdf/1711.05458.pdf).
 
+This is an image example
+![plant](https://ibb.co/fpWMc4q)
+
 # Quick Start 
 ## Install
 ``` 
