@@ -23,8 +23,10 @@ pip install -r requirements.txt
 ``` 
 ## Train 
 
-python3 train.py 
 
+```
+python3 train.py 
+```
 # Author 
 
 [Bryan Piguave](https://github.com/bryanpiguave)
