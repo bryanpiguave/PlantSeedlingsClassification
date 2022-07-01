@@ -131,3 +131,7 @@ dmypy.json
 
 # Data
 *.png
+*.jpg
+
+#Hydra outputs
+outputs/*
