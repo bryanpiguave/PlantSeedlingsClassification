@@ -1,0 +1,10 @@
+paths:
+  data_dir: "/home/inari/PlantSeedlingsClassification/data"
+params:
+  num_classes: 12
+  base_learning_rate: 0.001
+  initial_epochs: 10
+  fine_tuning_epochs: 20
+  batch_size: 32
+  img_width: 224
+  img_height: 224
